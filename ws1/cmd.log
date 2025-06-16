@@ -29,3 +29,6 @@ line1 line2 line3
 paste -s -d+ ws1/FARE/48.0-161.0.txt | bc
 
 echo "$(paste -s -d+ ws1/FARE/48.0-161.0.txt | bc) / $(wc -l < ws1/FARE/48.0-161.0.txt)" | bc
+
+
+grep -E "^[^,]*,\"2019-04-10" 2019-04.csv | cut -d, -f17 | sort -rn | head -10
