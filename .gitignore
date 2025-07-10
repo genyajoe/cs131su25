@@ -2,4 +2,6 @@ temp/
 e*/
 2019-04.csv
 ws1/FARE/
-
+__pycache__/
+*.pyc
+.DS_Store
