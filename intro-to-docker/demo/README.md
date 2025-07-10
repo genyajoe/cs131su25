@@ -5,6 +5,7 @@
 3. Publish the image to
    1. A private image registry (Google Cloud Artifact Registry)
    2. A public image registry service (DockerHub)
+4. Deploy the service on Cloud
 
 ## 1. Create a REST API with FastAPI
 - Goal: instead of giving users code itself, provide a service interface (REST API) of your program
